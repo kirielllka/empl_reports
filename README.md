@@ -104,14 +104,8 @@ pytest -v
 ## Структура проекта
 
 ```
-salary-reports/
-├── reports/               # Модуль с отчетами
-│   ├── __init__.py
-│   ├── base_report.py     # Базовый класс отчетов
-│   ├── payout_report.py   # Отчет по выплатам
-│   └── new_report.py      # Пример нового отчета
-├── tests/                 # Тесты
-├── main.py                # Точка входа
+├── tests.py                 # Тесты
+├── main.py                # Точка входа и логика приложения
 └── README.md
 ```
 
